@@ -1,0 +1,36 @@
+.game {
+    background-image: url(cloud.gif);
+    width: 70%;
+    height: 60vh;
+    margin: 10px auto;
+    background-size: cover;
+    position: relative;
+}
+.bird{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    user-select: none;
+    
+}
+.bird:hover{
+    cursor: url(cursor.png), crosshair;
+}
+.bird img{
+    width: 100%;
+}
+.rezult-div{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2em;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+.rez-img{
+display: flex;
+align-items: center;
+margin-right: 15px;
+}
+.rez-img img{
+    width: 70px;
+}
