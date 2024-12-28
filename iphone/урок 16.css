@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+}
+.left, .right{
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    flex-grow: 1;
+    box-shadow:0px 2px 10px gray ;
+}
+h2{
+    text-align: center;
+    border-bottom: 2px solid rgb(3, 75, 3);
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+body{
+    margin: 0;
+}
+.info-text{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name-right, .ekran-right, .bespeca-right, .batareya-right, .procesor-right, .Yemnist-right, .tipekranu-right{
+    font-family: Consolas, monospace ;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+.name-left, .ekran-left, .bespeca-left, .batareya-left, .procesor-left, .Yemnist-left, .tipekranu-left{    font-family: Consolas, monospace ;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+select{
+    font-size: 1.3em;
+    border: none;
+    padding: 7px;
+    background-color: rgb(176, 250, 176);
+}
+select:focus{
+box-shadow: 0px 3px 5px 3px gray;
+outline: none;
+}
