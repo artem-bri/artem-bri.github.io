@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&display=swap');
+
+
+body{
+    margin: 0;
+}
+
+.oclock{
+    margin: 0;
+    padding: 100px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(img/day2.jpg) ;
+}
+
+
+
+.p-hour{
+    font-size: 4em;
+    margin: 0;
+    font-family: "Orbitron", serif;
+}
+.p-day{
+    font-size: 2em;
+    margin: 0;
+    font-family: "Orbitron", serif;
+
+}
