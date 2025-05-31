@@ -1,0 +1,13 @@
+
+body{
+    background-color: lightblue;
+}
+
+
+.fafa h1{
+    width: 100%;
+    text-shadow: 2px 5px white;
+    font-size: 4em;
+    text-align: center;
+    color: rgb(120, 165, 165);
+}

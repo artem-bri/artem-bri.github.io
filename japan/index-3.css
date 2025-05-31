@@ -1,0 +1,61 @@
+
+img{
+    width: 100%;
+}
+
+body{
+    font-family: "Caveat", cursive;
+    background-color:rgb(50, 50, 55);
+    overflow-x: hidden;
+}
+ h1{
+   color: rgb(124, 57, 59) ;
+    text-shadow: 2px 5px rgb(0, 0, 0);
+    font-size: 5em;
+    text-align: center;
+}
+p{
+    color: rgb(124, 57, 59);
+    font-family: cursive;
+    text-shadow: 2px 5px rgb(0, 0, 0);
+    font-size: 1.4em;
+    text-align: center ;
+    animation:move 0.5s infinite alternate linear;
+}
+@keyframes move {
+    0%{
+        transform: translate(0px,  0px);
+
+    }
+    100%{
+        transform: translate(10px, 5px);
+    }
+}
+h2{
+   color:rgb(124, 57, 59) ;
+    text-shadow: 2px 5px rgb(0, 0, 0);
+    font-family: serif;
+    text-align: center;
+    font-size: 3em;
+}
+h3{
+    color:rgb(124, 57, 59) ;
+    text-shadow: 2px 5px rgb(0, 0, 0);
+    font-family: unset;
+    text-align: center;
+    font-size: 2em;
+}
+h4{
+    color: rgb(124, 57, 59);
+    font-family: cursive;
+    text-shadow: 2px 5px rgb(0, 0, 0);
+    font-size: 1.6em;
+    text-align: center ;
+}
+ul{
+    color: rgb(124, 57, 59);
+    font-family: cursive;
+    text-shadow: 2px 5px rgb(0, 0, 0);
+    font-size: 1.4em;
+    text-align: center ;
+}

@@ -1,0 +1,36 @@
+img{
+    width: 100%;
+}
+.skibidi{
+    text-align: center;
+    color: rgb(227, 117, 185);
+    
+}
+body{
+    font-family: "Caveat", cursive;
+    background-color: rgba(234, 140, 140, 0.197);
+}
+.skibidi h1{
+    width: 100%;
+    text-shadow: 2px 5px white;
+    font-size: 5em;
+}
+.skibidi p{
+    width: 100%;
+    text-shadow: 2px 5px white;
+    font-size: 3em;
+}
+.brr h1{
+    text-align: center;
+    font-size: 4em;
+}
+.sld p{
+    font-size: 2em;
+}
+.frr{
+    justify-content: right;
+}
+.frr p{
+    font-size: 2em;
+    padding: 10px;
+}

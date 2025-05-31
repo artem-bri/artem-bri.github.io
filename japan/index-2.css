@@ -1,0 +1,29 @@
+
+img{
+    width: 100%;
+}
+
+body{
+    font-family: "Caveat", cursive;
+    background-color:rgb(211, 221, 160);
+    overflow-x: hidden;
+}
+ h1{
+   color: rgb(169, 177, 127) ;
+    text-shadow: 2px 5px white;
+    font-size: 5em;
+    text-align: center;
+}
+p{
+    font-family: cursive;
+    text-shadow: 2px 5px white;
+    font-size: 1.4em;
+    text-align: center ;
+}
+h2{
+   color: rgb(77, 80, 58) ;
+    text-shadow: 2px 5px white;
+    font-family: serif;
+    text-align: center;
+    font-size: 3em;
+}

@@ -1,0 +1,34 @@
+
+img{
+    width: 100%;
+}
+
+body{
+    font-family: "Caveat", cursive;
+    background-color: rgba(152, 230, 254, 0.197);
+    overflow-x: hidden;
+}
+ h1{
+   color: rgb(131, 189, 200);
+    text-shadow: 2px 5px white;
+    font-size: 5em;
+    text-align: center;
+}
+p{
+    
+    text-shadow: 2px 5px white;
+    font-size: 3em;
+}
+
+.facts-list li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px 0;
+    font-size: 1.2em;
+    border-bottom: 1px solid rgb(169, 166, 166);
+    list-style-position: inside;
+    padding: 15px;
+}
+.facts-list li:nth-child(2n){
+    margin-left: 40px;
+    background-color: #ededed;
+}
